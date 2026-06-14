@@ -1,0 +1,115 @@
+:root {
+	/* Colors */
+	--color-page: #f7f8fc;
+	--color-surface: #ffffff;
+	--color-surface-muted: #f1f3f9;
+
+	--color-text: #161616;
+	--color-text-muted: #6f7280;
+	--color-text-soft: #9a9dab;
+
+	--color-border: #e2e5ef;
+	--color-border-strong: #c8cede;
+
+	--color-primary: #315efb;
+	--color-primary-hover: #244ee0;
+	--color-primary-soft: #e9efff;
+
+	--color-accent: #d7f72f;
+	--color-accent-strong: #a8c700;
+
+	--color-success: #179c5f;
+	--color-success-soft: #e7f8ef;
+
+	--color-warning: #f3a712;
+	--color-warning-soft: #fff5dd;
+
+	--color-danger: #d92d20;
+	--color-danger-soft: #ffe9e7;
+
+	--color-focus: #315efb;
+
+	/* Typography */
+	--font-family-base:
+		Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+	--font-size-xs: 0.75rem;
+	--font-size-sm: 0.875rem;
+	--font-size-md: 1rem;
+	--font-size-lg: 1.125rem;
+	--font-size-xl: 1.5rem;
+	--font-size-2xl: 2rem;
+
+	--line-height-tight: 1.15;
+	--line-height-base: 1.5;
+
+	/* Spacing */
+	--space-1: 0.25rem;
+	--space-2: 0.5rem;
+	--space-3: 0.75rem;
+	--space-4: 1rem;
+	--space-5: 1.25rem;
+	--space-6: 1.5rem;
+	--space-8: 2rem;
+	--space-10: 2.5rem;
+	--space-12: 3rem;
+
+	/* Radius */
+	--radius-sm: 0.75rem;
+	--radius-md: 1rem;
+	--radius-lg: 1.25rem;
+	--radius-xl: 1.75rem;
+	--radius-pill: 999px;
+
+	/* Shadows */
+	--shadow-card: 0 18px 50px rgb(26 31 54 / 0.08);
+	--shadow-card-hover: 0 24px 60px rgb(26 31 54 / 0.12);
+
+	/* Layout */
+	--container-width: 1180px;
+	--header-height: 4.5rem;
+
+	/* Motion */
+	--transition-fast: 150ms ease;
+	--transition-base: 220ms ease;
+}
+
+.theme-high-contrast {
+	--color-page: #050505;
+	--color-surface: #111111;
+	--color-surface-muted: #1d1d1d;
+
+	--color-text: #ffffff;
+	--color-text-muted: #e6e6e6;
+	--color-text-soft: #cfcfcf;
+
+	--color-border: #ffffff;
+	--color-border-strong: #ffffff;
+
+	--color-primary: #8fb3ff;
+	--color-primary-hover: #b8ccff;
+	--color-primary-soft: #182849;
+
+	--color-accent: #ffff00;
+	--color-accent-strong: #ffff00;
+
+	--color-success: #7dffb2;
+	--color-success-soft: #123822;
+
+	--color-warning: #ffe48a;
+	--color-warning-soft: #3d2e0a;
+
+	--color-danger: #ff9a91;
+	--color-danger-soft: #411815;
+
+	--color-focus: #ffff00;
+}
+
+.theme-large-text {
+	--font-size-xs: 0.875rem;
+	--font-size-sm: 1rem;
+	--font-size-md: 1.125rem;
+	--font-size-lg: 1.25rem;
+	--font-size-xl: 1.75rem;
+	--font-size-2xl: 2.25rem;
+}
