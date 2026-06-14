@@ -5,6 +5,7 @@ import { DashboardPage } from '../pages/DashboardPage/DashboardPage'
 import { SettingsPage } from '../pages/SettingsPage/SettingsPage'
 import { SubjectPage } from '../pages/SubjectPage/SubjectPage'
 import { TopicPage } from '../pages/TopicPage/TopicPage'
+import { NotFoundPage } from '../pages/NotFoundPage/NotFoundPage'
 
 export const router = createBrowserRouter([
 	{
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
 			{
 				path: 'settings',
 				element: <SettingsPage />,
+			},
+			{
+				path: '*',
+				element: <NotFoundPage />,
 			},
 		],
 	},

@@ -1,0 +1,36 @@
+.card {
+	max-width: 42rem;
+	padding: var(--space-8);
+	background:
+		radial-gradient(
+			circle at top right,
+			rgb(215 247 47 / 0.35),
+			transparent 12rem
+		),
+		var(--color-surface);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius-xl);
+	box-shadow: var(--shadow-card);
+}
+
+.eyebrow {
+	margin: 0 0 var(--space-2);
+	font-size: var(--font-size-xs);
+	font-weight: 900;
+	color: var(--color-primary);
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.title {
+	margin: 0;
+	font-size: clamp(2.5rem, 6vw, 5rem);
+	line-height: 0.95;
+	letter-spacing: -0.06em;
+}
+
+.description {
+	margin: var(--space-5) 0 var(--space-6);
+	font-size: var(--font-size-lg);
+	color: var(--color-text-muted);
+}
