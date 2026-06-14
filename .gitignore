@@ -1,0 +1,10 @@
+@"
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+"@ | Set-Content -Encoding UTF8 .gitignore
