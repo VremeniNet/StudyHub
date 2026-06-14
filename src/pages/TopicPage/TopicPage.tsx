@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export function TopicPage() {
 	return (
-		<main id='main-content' className='page-shell'>
+		<main id='main-content' className='page-shell page-section'>
 			<h1>Тема подготовки</h1>
 			<p>Страница учебной темы с материалом и чеклистом.</p>
 

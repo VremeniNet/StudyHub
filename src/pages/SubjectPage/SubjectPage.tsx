@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export function SubjectPage() {
 	return (
-		<main id='main-content' className='page-shell'>
+		<main id='main-content' className='page-shell page-section'>
 			<h1>UI/UX Design</h1>
 			<p>Страница предмета с планом подготовки.</p>
 

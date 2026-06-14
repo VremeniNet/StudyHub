@@ -223,3 +223,7 @@ svg {
 	color: var(--color-primary);
 	background: var(--color-primary-soft);
 }
+
+.page-section {
+	padding-top: var(--space-10);
+}
