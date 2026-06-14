@@ -31,7 +31,8 @@
 
 	/* Typography */
 	--font-family-base:
-		Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+		'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		sans-serif;
 
 	--font-size-xs: 0.75rem;
 	--font-size-sm: 0.875rem;
