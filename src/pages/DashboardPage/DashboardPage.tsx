@@ -47,14 +47,13 @@ export function DashboardPage() {
 					<span className={styles.streakIcon} aria-hidden='true'>
 						✦
 					</span>
-					<h2 id='streak-title' className={styles.streakTitle}>
-						Учебная серия
-					</h2>
-					<p className={styles.streakValue}>1 день</p>
-					<p className={styles.streakDescription}>
-						Серия отображается текстом, поэтому информация доступна не только
-						визуально.
-					</p>
+					<div>
+						<h2 id='streak-title' className={styles.streakTitle}>
+							Учебная серия
+						</h2>
+						<p className={styles.streakValue}>1 день</p>
+					</div>
+					<p className={styles.streakDescription}></p>
 				</aside>
 			</div>
 
