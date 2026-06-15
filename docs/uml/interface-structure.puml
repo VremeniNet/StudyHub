@@ -1,0 +1,32 @@
+@startuml
+title StudyHub. Структура интерфейса
+
+skinparam shadowing false
+skinparam monochrome true
+skinparam defaultFontName Arial
+
+package "StudyHub" {
+  [Главная] as Dashboard
+  [Страница предмета] as Subject
+  [Страница темы] as Topic
+  [Достижения] as Achievements
+  [Настройки доступности] as Settings
+  [Страница 404] as NotFound
+}
+
+Dashboard --> Subject : выбрать предмет
+Dashboard --> Topic : продолжить подготовку
+Dashboard --> Achievements : открыть достижения
+Dashboard --> Settings : открыть настройки
+
+Subject --> Dashboard : вернуться на главную
+Subject --> Topic : выбрать тему
+
+Topic --> Subject : вернуться к предмету
+Topic --> Achievements : перейти к достижениям
+
+Achievements --> Dashboard : вернуться на главную
+Settings --> Dashboard : вернуться на главную
+NotFound --> Dashboard : перейти на главную
+
+@enduml
